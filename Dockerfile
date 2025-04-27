@@ -3,7 +3,7 @@ MAINTAINER vamsi
 LABEL ITS FOR MY USE
 RUN touch flm
 RUN mkdir hello
-copy index.html /hello/ram
+COPY index.html /hello/ram
 ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.104/bin/apache-tomcat-9.0.104.tar.gz /hello
 WORKDIR /myapp/java
 EXPOSE 89
