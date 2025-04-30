@@ -13,4 +13,4 @@ RUN touch hi
 CMD [ "yum", "install", "-y", "git"]
 CMD ["echo", "hellovamsi"]
 ENTRYPOINT ["apt", "install", "maven", "-y"]
-ENTROYPOINT["apt", "install", "git", ["-y"]
+ENTROYPOINT ["apt", "install", "git", ["-y"]
